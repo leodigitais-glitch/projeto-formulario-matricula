@@ -9,6 +9,12 @@
   "editor.minimap.enabled": false,
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
 
   // explorer
   "explorer.compactFolders": false,
@@ -36,6 +42,7 @@
   // HTML autocomplete - remove code suggestions, keep tag completion only
   "[html]": {
     "editor.suggest.showWords": false,
-    "editor.suggest.showSnippets": false
+    "editor.suggest.showSnippets": false,
+    "editor.inlineSuggest.enabled": false
   }
 }
