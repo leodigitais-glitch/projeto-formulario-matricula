@@ -1,9 +1,11 @@
+/* Reset do css */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
+/* Elemento raiz */
 :root {
   --font-family: "poppings", sans-serif;
   --text: 400 1rem/1.5 var(--font-family); /*texto padrão*/
