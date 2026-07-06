@@ -11,7 +11,7 @@
 }
 
 .checkbox-wrapper {
-  border: 1px solid;
+  /* border: 1px solid; */
   position: relative;
 
   & [type="checkbox"] {
@@ -21,7 +21,7 @@
   }
 
   .checkbox-image {
-    border: 1px solid;
+    /* border: 1px solid; */
     flex: 0 0 1.5rem;
     height: 1.5rem;
 
